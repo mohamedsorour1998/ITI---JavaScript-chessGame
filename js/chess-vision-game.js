@@ -133,7 +133,7 @@ function checkInput(targetId) {
     // show correct sign
     const parent = document.getElementById("imgContainer");
     const img = document.createElement("img");
-    img.src = "./../img/tick.jpg";
+    img.src = " https://www.content.presentermedia.com/files/clipart/00003000/3296/check_mark_green_800_wht.jpg";
     img.style.padding = "15px";
     parent.appendChild(img);
     //show the next random x & y to instruct player
