@@ -2,7 +2,6 @@ startButton = document.getElementById("btn");
 startButton.addEventListener("click", () => {
   startGame();
 });
-getSelectParent = document.getElementById("color");
 
 function startGame() {
   inGameEvents();
@@ -44,8 +43,6 @@ function drawBoard() {
       newDiv.style.padding = "15px";
       newDiv.style.borderRadius = "1px";
       newDiv.id = `${l}${i}`;
-      globalDivId = newDiv.id;
-      globalDiv = newDiv;
       newDiv.addEventListener("click", (event) => {
         //passing event.target.id as argument for the call back function, to be used in
         //it to know which element had been called and it's id
